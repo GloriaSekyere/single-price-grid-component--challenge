@@ -56,15 +56,15 @@ section {
 
 .two {
   background-color: $section-2;
-  p {
-    &:nth-child(1){
-      color: #fff;
-      margin-bottom: 15px;
-      font: {
-        size: 18px;
-        weight: 700;
-      }
+  h2 {
+    color: #fff;
+    margin-bottom: 15px;
+    font: {
+      size: 18px;
+      weight: 700;
     }
+  }
+  p {
     &:nth-child(2){
       display: flex;
       align-items: center;
@@ -103,7 +103,7 @@ section {
     bottom-left-radius: 7.5px;
     bottom-right-radius: 7.5px;
   }
-  p {
+  h2 {
     color: #fff;
     margin-bottom: 15px;
     font: {

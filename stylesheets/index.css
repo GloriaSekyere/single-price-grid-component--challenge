@@ -54,7 +54,7 @@ section {
   background-color: #28ADAB;
 }
 
-.two p:nth-child(1) {
+.two h2 {
   color: #fff;
   margin-bottom: 15px;
   font-size: 18px;
@@ -103,7 +103,7 @@ section {
   border-bottom-right-radius: 7.5px;
 }
 
-.three p {
+.three h2 {
   color: #fff;
   margin-bottom: 15px;
   font-size: 18px;
@@ -189,7 +189,7 @@ section {
     border-bottom-left-radius: 7.5px;
     background-color: #28ADAB;
   }
-  .two p:nth-child(1) {
+  .two h2 {
     color: #fff;
     margin-bottom: 20px;
     font-size: 18px;
@@ -238,7 +238,7 @@ section {
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 7.5px;
   }
-  .three p {
+  .three h2 {
     color: #fff;
     margin-bottom: 15px;
     font-size: 18px;
