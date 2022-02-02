@@ -10,15 +10,23 @@ body {
 }
 
 main {
-  width: 80%;
+  display: grid;
+  grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+  width: 60%;
   margin: auto;
+  box-shadow: 0 20px 50px $main-shadow;
 }
 
 section {
-  padding: 10%;
+  padding: 0 0 0 0;
 }
 
 .one {
+  padding: 0 40px;
+  grid-area: 1/1/2/3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-color: #fff;
   border: {
     top-left-radius: 7.5px;
@@ -45,11 +53,14 @@ section {
 }
 
 .two {
+  padding: 40px;
+  grid-area: 2/1/3/2;
+  border-bottom-left-radius: 7.5px;
   background-color: $section-2;
   p {
     &:nth-child(1){
       color: #fff;
-      margin-bottom: 15px;
+      margin-bottom: 20px;
       font: {
         size: 18px;
         weight: 700;
@@ -59,7 +70,7 @@ section {
       display: flex;
       align-items: center;
       color: $per-month;
-      margin-bottom: 5px;
+      margin-bottom: 10px;
       span {
         color:#fff;
         display: inline-block;
@@ -72,25 +83,27 @@ section {
     }
     &:nth-child(3){
       color: $full-acess;
-      margin-bottom: 25px;
+      margin-bottom: 30px;
     }
   }
   button {
     width: 100%;
-    height: 45px;
+    height: 50px;
     color:#fff;
     background-color: $bright-yellow;
     border: none;
     border-radius: 5px;
     font-weight: 700;
-    box-shadow: 0 10px 15px $box-shadow;
+    box-shadow: 0 10px 15px $button-shadow;
   }
 }
 
 .three {
+  padding: 40px;
+  grid-area: 2/2/3/3;
   background-color: $section-3;
   border: {
-    bottom-left-radius: 7.5px;
+    bottom-left-radius: 0;
     bottom-right-radius: 7.5px;
   }
   p {

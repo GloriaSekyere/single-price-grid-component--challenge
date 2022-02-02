@@ -21,7 +21,7 @@ body {
 main {
   width: 80%;
   margin: auto;
-  box-shadow: 0 0 20px #C9DBEA;
+  box-shadow: 0 0 20px $main-shadow;
 }
 
 section {
@@ -93,7 +93,7 @@ section {
     border: none;
     border-radius: 5px;
     font-weight: 700;
-    box-shadow: 0 10px 15px $box-shadow;
+    box-shadow: 0 10px 15px $button-shadow;
   }
 }
 
