@@ -10,6 +10,7 @@ body {
   padding: 75px 0;
   display: grid;
   place-content: center;
+  min-height: 100vh;
   background-color: $light-gray;
   font: {
     family: "Karla", sans-serif;
